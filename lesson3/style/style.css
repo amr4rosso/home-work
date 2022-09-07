@@ -10,6 +10,7 @@ body {
 
 /* ----header---- */
 
+
 .header {
 	margin: 53px 0;	
 }
@@ -35,7 +36,9 @@ body {
 	text-transform: uppercase;
 }
 
+
 /* ----section Background---- */
+
 
 .background {
 	text-align: center;
@@ -66,7 +69,9 @@ body {
 	border: none;
 }
 
+
 /* ----section Description---- */
+
 
 .description {
 	padding: 133px 0;
@@ -80,4 +85,135 @@ body {
 	font-size: 36px;
 	line-height: 49px;
 	color: #FFFFFF;
+}
+
+
+/* -----section Square----- */
+
+
+.rectangle {
+	max-width: 1440px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.square__text {
+	width: 738px;
+	margin: 0 auto;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+	color: #000000;
+	margin: 216px auto;
+}
+
+.rec__1 {
+	width: 178px;
+	height: 121px;
+	background: #BFDEFB;
+	position: absolute;
+	left: 0;
+	top: -138px;
+}
+
+.rec__2 {
+	width: 178px;
+	height: 121px;
+	background: #BFDEFB;
+	position: absolute;
+	left: 0;
+	top: 125px;
+}
+
+.rec__3 {
+	width: 178px;
+	height: 121px;
+	background: #BFDEFB;
+	position: absolute;
+	right: 0;
+	top: 14px;
+}
+
+
+/* ----section Circle---- */
+
+
+.circle__text {
+	width: 738px;
+	margin: 0 auto 123px;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+	color: #000000;
+	margin: 216px auto;
+	position: relative;
+}
+
+.circle__text::before {
+	content: url("../img/Ellipse1.png");
+	position: absolute;
+	top: -56px;
+	left: -30px;
+}
+
+.circle__text::after {
+	content: url('../img/Ellipse2.png');
+	position: absolute;
+	right: -150px;
+	
+}
+
+
+/* ----section Form---- */
+
+
+.form {
+	width: 647px;
+	margin: 0 auto;
+}
+
+.input__wrapper{
+	position: relative;
+	margin-bottom: 41px;
+}
+
+.label {
+	position: absolute;
+	top: 14px;
+	left: 33px;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 19px;
+	color: #000000;
+}
+
+.input {
+	width: 100%;
+	background: #FFFFFF;
+	border: 1px solid #000000;
+	border-radius: 4px;
+	box-sizing: border-box;
+	padding: 36px 0 11px 34px;
+}
+
+.input::placeholder, .input {
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 49px;
+	color: #000000;
+}
+
+.button{
+	width: 647px;
+	height: 92px;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 49px;
+	text-align: center;
+	color: #FFFFFF;
+	background: #5C98AB;
+	margin-bottom: 300px;
+	border: none;
 }
