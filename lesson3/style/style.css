@@ -106,29 +106,24 @@ body {
 	margin: 216px auto;
 }
 
-.rec__1 {
+.rectangle__item {
 	width: 178px;
 	height: 121px;
 	background: #BFDEFB;
 	position: absolute;
+}	
+
+.rec__1 {
 	left: 0;
 	top: -138px;
 }
 
 .rec__2 {
-	width: 178px;
-	height: 121px;
-	background: #BFDEFB;
-	position: absolute;
 	left: 0;
 	top: 125px;
 }
 
 .rec__3 {
-	width: 178px;
-	height: 121px;
-	background: #BFDEFB;
-	position: absolute;
 	right: 0;
 	top: 14px;
 }
