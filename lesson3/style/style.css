@@ -91,7 +91,7 @@ body {
 /* -----section Square----- */
 
 
-.rectangle {
+.square {
 	position: relative;
 }
 
@@ -106,24 +106,24 @@ body {
 	margin: 216px auto;
 }
 
-.rectangle__item {
+.square__item {
 	width: 178px;
 	height: 121px;
 	background: #BFDEFB;
 	position: absolute;
 }	
 
-.rec__1 {
+.item__1 {
 	left: 0;
 	top: -138px;
 }
 
-.rec__2 {
+.item__2 {
 	left: 0;
 	top: 125px;
 }
 
-.rec__3 {
+.item__3 {
 	right: 0;
 	top: 14px;
 }
