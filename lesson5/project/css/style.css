@@ -59,7 +59,7 @@ body {
 	transition: 1s;
 }
 
-.header__link:hover:before {
+.header__link:hover::before {
 	content: '';
 	position: absolute;
 	width: 100%;
